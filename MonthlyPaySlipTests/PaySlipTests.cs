@@ -1,4 +1,4 @@
-using MonthlyPaySlip;
+using MonthlyPaySlipBusiness;
 using System;
 using Xunit;
 
@@ -16,6 +16,16 @@ namespace MonthlyPaySlipTests
 
             //Assert
             Assert.Equal(500, result);
+        }
+
+        [Fact]
+        public void GetMonthlyIncomeTax_ValidAnnualSalaryLessThan20000_ReturnMonthlyIncomeTax()
+        {
+            //Act
+            var result = _paySlip.GetMonthlyIncomeTax(19000);
+
+            //Assert
+            Assert.Equal(0, result);
         }
 
         [Fact]

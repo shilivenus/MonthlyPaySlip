@@ -4,14 +4,14 @@
     "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlip\\MonthlyPaySlip.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlip\\MonthlyPaySlip.csproj": {
+    "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlipBusiness\\MonthlyPaySlipBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlip\\MonthlyPaySlip.csproj",
-        "projectName": "MonthlyPaySlip",
-        "projectPath": "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlip\\MonthlyPaySlip.csproj",
+        "projectUniqueName": "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlipBusiness\\MonthlyPaySlipBusiness.csproj",
+        "projectName": "MonthlyPaySlipBusiness",
+        "projectPath": "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlipBusiness\\MonthlyPaySlipBusiness.csproj",
         "packagesPath": "C:\\Users\\shili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlip\\obj\\",
+        "outputPath": "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlipBusiness\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,77 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlip\\MonthlyPaySlip.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlip\\MonthlyPaySlip.csproj",
+        "projectName": "MonthlyPaySlip",
+        "projectPath": "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlip\\MonthlyPaySlip.csproj",
+        "packagesPath": "C:\\Users\\shili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlip\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlipBusiness\\MonthlyPaySlipBusiness.csproj": {
+                "projectPath": "C:\\Users\\shili\\source\\repos\\MonthlyPaySlip\\MonthlyPaySlipBusiness\\MonthlyPaySlipBusiness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
